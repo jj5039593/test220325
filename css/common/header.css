@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+#wrap{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+}
+
+.header{
+    
+}
+.header .inner-header{
+    display: flex;
+    justify-content: center;
+
+}
+.header .inner-header .nav{
+    flex:0 1 1280px;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 5px rgba(85, 85, 85, 0.349);
+}
+.header .inner-header .nav h1.logo{
+    flex: 0 0 100px;
+    height: auto;
+    padding: 0 10px;
+}
+.header .inner-header .nav h1.logo img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header .inner-header .nav .gnb{
+    flex: 0 1 600px;
+    height: auto;
+    padding: 0 100px;
+}
+.header .inner-header .nav .gnb ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.header .inner-header .nav .gnb ul li{
+    flex: 1;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header .inner-header .nav .gnb ul li:hover{
+    background-color: rgb(47, 126, 81);
+    color: aliceblue;
+}
+.header .inner-header .nav .gnb ul li:hover a{
+    color: aliceblue;
+}
+
+.header .inner-header .nav .gnb ul li a{
+    font-weight: bold;
+}
